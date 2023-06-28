@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+:root {
+  --img-dimension: 370px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 10vh;
+  width: 100%;
+  background-color: #be3144;
+}
+
+nav {
+  a {
+    float: left;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+  }
+}
+
+#about {
+  height: 100vh;
+  background-color: #313336;
+}
+
+#work {
+  background-color: #45567d;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: center;
+  padding: 50px 10px;
+}
+
+img {
+  width: var(--img-dimension);
+  height: var(--img-dimension);
+  object-fit: cover;
+}
+
+.card {
+  background-color: #313336;
+  color: white;
+}
+
+.card p {
+  padding: 20px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+#contact {
+  height: 100vh;
+  background-color: #303841;
+}
