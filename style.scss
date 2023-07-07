@@ -61,3 +61,23 @@ img {
   height: 100vh;
   background-color: #303841;
 }
+
+dialog {
+  border-radius: 8px;
+  margin: 0 auto;
+  border: 3px solid black;
+  position: fixed;
+  top: 50px;
+  padding: 40px;
+}
+dialog p, dialog a , dialog button{
+  color: black;
+
+}
+
+dialog form button {
+  display: block;
+  margin: 20px auto 0 auto;
+  width: 150px;
+  font-size: 20px;
+}
